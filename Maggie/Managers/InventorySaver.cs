@@ -9,7 +9,12 @@ using System.Threading.Tasks;
 
 namespace Maggie.Managers
 {
-    internal class InventorySaveService
+    /// <summary>
+    /// S: The purpose of this class is to save an Inventory to disk
+    /// O: Existing methods saving to JSON my remain intact if I need to allow saving with encryption
+    /// L: 
+    /// </summary>
+    internal class InventorySaver
     {
         public static void SaveInventoryToJSON(Inventory inventory, string filePath)
         {

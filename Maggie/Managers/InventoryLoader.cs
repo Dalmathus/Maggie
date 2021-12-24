@@ -8,7 +8,14 @@ using System.Threading.Tasks;
 
 namespace Maggie.Managers
 {
-    internal class InventoryLoadService
+    /// <summary>
+    /// S: The responsiblity of this class is to load an 'Inventory' into memory
+    /// O: 
+    /// L:
+    /// I:
+    /// D:
+    /// </summary>
+    internal class InventoryLoader
     {
         public static Inventory? LoadInventoryFromJSON(string filePath)
         {

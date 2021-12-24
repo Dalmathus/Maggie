@@ -8,6 +8,13 @@ using System.Threading.Tasks;
 
 namespace Maggie.Models
 {
+    /// <summary>
+    /// S: The purpose of this class is to define an Inventory in memory
+    /// O:
+    /// L:
+    /// I:
+    /// D:
+    /// </summary>
     public class Inventory
     {
         [JsonProperty]
